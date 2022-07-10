@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guide to modern Tetris" />
+    <title>Guide to modern Tetris</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id='navbar'>
+      <header>Guide to Modern Tetris</header>
+      <ul id='nav-list'>
+        <li><a class='nav-link' href='#Pieces'>Pieces</a></li>
+        <li><a class='nav-link' href='#Controls_and_Handling'>Controls and Handling</a></li>
+        <li><a class='nav-link' href='#Stacking'>Stacking</a></li>
+        <li><a class='nav-link' href='#Attacks'>Attacks</a></li>
+        <li><a class='nav-link' href='#Openers'>Openers</a></li>
+      </ul>
+    </nav>
+    <main id='main-doc'>
+      <section class='main-section' id='Pieces'>
+        <header>Pieces</header>
+        <p>Tetris pieces, also called tetrominoes, are a composition of 4 square-blocks, joined at right angles. There are seven possibilties and therefore also seven unique tetrominoes. Tetrominoes are assigend a one-letter name for simplicity: I, S, Z, O, T, L, J.</p>
+        <img id='pieces-img' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.babbledabbledo.com%2Fwp-content%2Fuploads%2F2018%2F10%2FTetrific-Tetris-Puzzle-BABBLE-DABBLE-DO-Tetrominoes-600x307.jpg&f=1&nofb=1' alt='picture of the seven unique tetrominoes and their one-letter names' />
+        <p>In modern tetris pieces spawn in 7-bags, each 7-bag contains every tetromino but in a randomized order, and the preview has 4-7 pieces depending on the game. Additionally there is the 'hold' mechanic, which allows you to hold a piece and use the next one in queue. You will then get the piece in hold by holding again replacing it with the current one.</p>
+      </section>
+      <section class='main-section' id='Controls_and_Handling'>
+        <header>Controls and Handling</header>
+        <p>In games like TETR and JSTRIS controls and handling are costumizable. It is adviced to learn playing with 0 ARR, ∞ SDF, 4-8 DAS. These handlings might be uncomfortable for beginners, but they will train you to use finesse. Finesee is how optimally you move your pieces to their wanted place. Perfect finesse means pressing the least amount of keys needed to get a piece to it's destination. Using finesse it's never necessary to press a left/right key more than twice per piece.</p>
+      </section>
+      <section class='main-section' id='Stacking'>
+        <header>Stacking</header>
+        <p>When stacking it's generally good to try and keep the board as flat as possible making it easier to place the next pieces fast, without needing to think much. When the board is low, it makes sense to upstack to create potential for a large attck later on. And when the board is filled high up you should consider downstacking in order to survive, since you lose the game if your board is filled to the top. There are plenty of stacking methods with different purposes, strengths and weaknesses.</p>
+        <h3>Stacking Methods:</h3>
+        <p><code><b>9-0</b></code> - 9-0-stacking is the first stacking method most beginners learn since it's very easy to perform. You just need to keep the board flat and do tetris attacks on one side of the board where your well is at. It's a weak stacking method as it is not suited for T-spins of any kind. It is also very susceptible to spikes since it's terrible for downstacking.</p>
+        <p><code><b>6-3</b></code> - 6-3-stacking is more finesse-efficient than 9-0, which means that when played properly it will have a low KPP number, making it faster to build. It's also great for downstacking and has many possiblities for T-spin setups. Overall really strong and used by some top players. Especially usefull for sprint as it is the fastest stacking method.</p>
+        <p><code><b>LST</b></code> - LST-/7-2-stacking is the most aggressive stacking method as it's great for huge back-to-back combos and constant pressure. It's also maybe slightly less good for downstacking than 6-3 but it's still good enough. It is used by many of the worlds best players in 1v1.</p>
+        <p><code><b>4-wide</b></code> - 4-wide-stacking is when you create a 4 wide well and build around it untill you reach the top. It can produce massive spikes especially if some garbage is received. The problem is that it takes really long to build a large 4-wide and can rarely be completed before getting killed.</p>
+        <p><code><b>5-4</b></code> - 5-4-stacking is great for downstacks and very stable. It's not the best for creating many T-spins but decent. It's fine to get into but there's no particular reason to learn this one as 6-3 and 7-2 are covering all the needs.</p>
+      </section>
+      <section class='main-section' id='Attacks'>
+        <header>Attacks</header>
+        <h3>Tetris</h3>
+        <p>A tetris or quad is when you clear 4 lines with just one piece, which is only possible with the I-piece. A tetris sends 4 lines of garbage to the opponent and is the easiest to learn attack, which is also quite deadly.</p>
+        <h3>T-spin single</h3>
+        <p>A T-spin single can be performed by spinning a T-piece into a hole and clearing one line. It sends out 2 lines of attack. These can be hard to spot and it takes practice gettting used to recognizing the pattern in order to regularly use them.</p>
+        <h3>T-spin double</h3>
+        <p>A T-spin double can be performed by spinning a T-piece into a hole and clearing two lines. It's the easiest form of T-spin to implement into ones gameplay as there is a basic pattern you can watch out for. It sends out 4 lines of attack, the same amount as a tetris but with only half the lines cleared, making it twice as efficient.</p>
+        <h3>T-spin triple</h3>
+        <p>T-spin triples are the most advanced type of T-spins as they require a very specific and peculiar setup. They are mainly used in openers and rarely in mid-game. They are quite powerful though with 6 lines of attack.</p>
+        <h3>Perfect Clear</h3>
+        <p>Perfect Clear is the largest attack coming in at 10 lines of attack. It's generally considered pure luck to get it in the mid-game and it's unrealistic to consistently pull it off. Therefore it's mostly performed at the very beginning of the game. Perfect Clears as an opener are extremely difficult to master as there is alot of theory and memorization involved.</p>
+      </section>
+      <section class='main-section' id='Openers'>
+        <header>Openers</header>
+        <p>Openers are theory on how to start off a game of tetris. Since the board is completely empty at the start and using the hold mechanic it's possible to get the same theoretical positions time and time again. Openers make one play better in the beginning than in any other part of the game, since you remember really good combinations.</p>
+        <h3>popular strong openers:</h3>
+        <ul>
+          <li><b>TKI</b> - Very easy to learn, not much memorization required. It doesn't send many lines of attack immediately but is very safe and can be followed up with large combinations in the mid-game. Paired with LST this opener is a lethal weapon.</li>
+          <li><b>PCO</b> - PCO is a solid opener, that has a good chance for a perfect clear. It can be followed up with more perfect clears but it takes alot of memorization to learn to do that. Without knowing the theory this is still a solid opener as it leaves a flat board to work on and a well in the center.</li>
+          <li><b>SDPC</b> - Only great if you are able to perform it really swiftly. It does require a good amount of memorization to be used at it's full power. It's extremely agsressive and can instantly kill opponents if performed well. It can be followed up with DPC to complete a loop, which can be repeated indefinitely aslong as the opponent hasn't sent garbage.</li>
+          <li><b>MS2</b> - An 8L perfect clear opener just like SDPC but this one sends the attack later and more condensed which makes it the ultimate CFW counter. It requires alot of memorization and can also be looped with DPC. Pretty volatile as misdrops at the wrong moment can be fatal but deadly if performed well.</li>
+          <li><b>Hachi</b> - Hachispin is a beginner-friendly 8L perfect clear opener. It is easy to memorize and has a 60% perfect clear chance with only 2 solves. If there is no perfect clear it has many great continuations such as imperial cross or LST.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
